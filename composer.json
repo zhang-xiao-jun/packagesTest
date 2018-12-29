@@ -1,0 +1,25 @@
+{
+    "name": "zhangjun/urlscantest",
+    "description": "packages test",
+    "require": {
+        "php": ">=5.40",
+        "guzzlehttp/guzzle": "~5.0",
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangjun",
+            "email": "zhangjun@exampl.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "suggest": {
+        "league/csv": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhangjun\\UrlScanner\\": "src/"
+        }
+    }
+}
